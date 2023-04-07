@@ -8,9 +8,9 @@ Olá esse é um tutorial em portugês que ensina como instalar e utilizar a ling
 
 <strong>Instalação da extensão</strong>
 
-* <strong>1ª</strong> Abrir o Vscode.
-* <strong>2ª</strong> Abrir a guia de extensões e procure por <u>vscode-silq</u>.
-* <strong>3ª</strong> Baixar a extensão .
+  <strong>1ª</strong> Abrir o Vscode.<br>
+  <strong>2ª</strong> Abrir a guia de extensões e procure por <u>vscode-silq</u>.<br>
+  <strong>3ª</strong> Baixar a extensão .
 
 Caso não ache a extensão ou não consiga baixar é possivel realizar a instalação de outra maneira.
 
