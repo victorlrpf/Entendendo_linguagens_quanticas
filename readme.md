@@ -16,5 +16,5 @@ Caso não ache a extensão ou não consiga baixar é possivel realizar a instala
 
 * Baixe a extensão como um arquivo <strong>.vsix</strong>.
 * <a href="https://marketplace.visualstudio.com/items?itemName=eth-sri.vscode-silq">Download do arquivo</a> observe os Resources e clique em Download Extension e vai fazer o download automaticamnte.
-* Abra o Vscode, vá na guia de extensões e clique nos três pontos no canto superior direito (...).
+* Abra o Vscode, vá na guia de extensões e clique nos três pontos no canto superior direito (<strong>...</strong>).
 * Selecione a opção instalar do VSIX.
