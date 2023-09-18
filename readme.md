@@ -1,4 +1,4 @@
-### Instalaçaõ para a utilizar o Silq
+### Instalaçaõ para a utilizar o SILQ
 
 Esse é um tutorial em portugês que ensina como instalar e utilizar a linguagem silq na sua maquina!
 
