@@ -1,4 +1,6 @@
-Olá esse é um tutorial em portugês que ensina como instalar e utilizar a linguagem silq na sua maquina!
+### Instalaçaõ para a utilizar o Silq
+
+Esse é um tutorial em portugês que ensina como instalar e utilizar a linguagem silq na sua maquina!
 
 * Silq é uma linguagem de programação de alto nivel para a computação quântica, que foi desenvolvida pela ETH Zürich.
 
@@ -10,7 +12,15 @@ Olá esse é um tutorial em portugês que ensina como instalar e utilizar a ling
 
   <strong>1ª</strong> Abrir o Vscode.<br>
   <strong>2ª</strong> Abrir a guia de extensões e procure por <u>vscode-silq</u>.<br>
-  <strong>3ª</strong> Baixar a extensão .
+  <strong>3ª</strong> Baixar a extensão.
+  <strong>4ª</strong> Importe a extensão para o vscode, da seguinte maneirta:
+  * Vá na aba de extensões
+  * Procura pelos (...)  acima da barra de pesquisa
+  * Ao fazer o click, vai aparecer alguns campos e tem que pprocurar o <strong>Install from VSIX</strong>
+  * Vá até a pasta onde baixou o arquivo e importe ele.
+  
+  <strong>4ª</strong> Comece a utilizar a linguagem silq.
+  * Para rodar o codigo, salve e presione F5 
 
 Caso não ache a extensão ou não consiga baixar é possivel realizar a instalação de outra maneira.
 
