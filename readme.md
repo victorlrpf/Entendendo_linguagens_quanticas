@@ -1,4 +1,4 @@
-### Instalaçaõ para a utilizar o SILQ
+### Instalaçâo para a utilizar o SILQ
 
 Esse é um tutorial em portugês que ensina como instalar e utilizar a linguagem silq na sua maquina!
 
@@ -20,7 +20,7 @@ Esse é um tutorial em portugês que ensina como instalar e utilizar a linguagem
   * Vá até a pasta onde baixou o arquivo e importe ele.
   
   <strong>4ª</strong> Comece a utilizar a linguagem silq.
-  * Para rodar o codigo, salve e presione F5 
+  * Para rodar o codigo, salve e presione F5 ou F6 para fazer o debugg da aplicação
 
 Caso não ache a extensão ou não consiga baixar é possivel realizar a instalação de outra maneira.
 
@@ -28,3 +28,17 @@ Caso não ache a extensão ou não consiga baixar é possivel realizar a instala
 * <a href="https://marketplace.visualstudio.com/items?itemName=eth-sri.vscode-silq">Download do arquivo</a> observe os Resources e clique em Download Extension e vai fazer o download automaticamnte.
 * Abra o Vscode, vá na guia de extensões e clique nos três pontos no canto superior direito (<strong>...</strong>).
 * Selecione a opção instalar do VSIX.
+#
+  ### Introdução básica
+Para conseguir rodar um codigo Silq inicialmete começamos deixamos claro uma <strong>def</strong>, como por exemplo uma main para colocarmos o codigo dentro dela e ficaria assim um exemplo.
+
+```silq
+def main(){
+    circ1:=0:B;
+    circ2:=1:B;
+    circ1:=H(circ1);
+    return measure(circ1, circ2)
+}
+```
+
+Onde aqui o codigo faz uma medição do circuito que aplicamos a porta de <strong>Hadamard</strong>, ele retorna o resultado que pode ser tanto que o circuito que aplicamos a porta volte como 1 ou 0 dependendo de qual polo estevesse mais proximo.
