@@ -1,0 +1,6 @@
+def main(){
+    circ1:=0:B;
+    circ2:=0:B;
+    circ1:=H(circ1);
+    return measure(circ1, circ2);
+}
