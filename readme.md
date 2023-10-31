@@ -1,3 +1,19 @@
+### Liguagens Quanticas
+
+Esse é um repositorio onde gostaria de compartilhar as descobertas realizadas, na inciação cientifica que participei. 
+
+Primeiramente precisamos entender que a computação quantica não é realmente aquele bicho de sete cabeças que muita gente acredita, mas obviamente é necessario tirar um tempo para  dedicar aos estudo e nesse repositorio é mais uma resumida de todo o estudo realizado, caso queiram saber mais podem ler os artigos que esse estudo gerou.
+
+* <a href=''>Fatec-Seg</a>
+* <a href=''>SICT</a>
+* <a href=''>Revista fatec Americana</a>
+
+O estudo foi realizado com base nas linguagens, <b>Silq</b> e <b>OpenQasm</b>, sendo a linguagem Silq uma linguagem de alto nível e a OpenQasm de baixo nível ambas são linguagens quanticas que são possiveis a criação de experimentos como por exemplo de algoritmos focando na criação de circuitos quãnticos. Antes de criar qualquer circuito ou tentar entender um codigo escrito em uma dessas duas linguagens, recomedo que leia sobre as portas que são possiveis aplicar.
+
+### OpenQasm
+
+Ela é a linguagem de baixo nível, que podemos utilizar na platafoma da <a href=''>IBMQ</a>, para se fazer possivel a execução dos circuitos, sendo no momento o lugar mais intuitivo para os estudos e experimentnos com essa linguagem, o OpenQasm é bastante parecido com o Assembly.
+
 ### Instalaçâo para a utilizar o SILQ
 
 Esse é um tutorial em portugês que ensina como instalar e utilizar a linguagem silq na sua maquina!
