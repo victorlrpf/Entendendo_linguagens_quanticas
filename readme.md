@@ -45,7 +45,7 @@ Caso não ache a extensão ou não consiga baixar é possivel realizar a instala
 * Abra o Vscode, vá na guia de extensões e clique nos três pontos no canto superior direito (<strong>...</strong>).
 * Selecione a opção instalar do VSIX.
 #
-  ### Introdução básica
+  ### Introdução básica a SILQ
 Para conseguir rodar um codigo Silq inicialmete começamos deixamos claro uma <strong>def</strong>, como por exemplo uma main para colocarmos o codigo dentro dela e ficaria assim um exemplo.
 
 ```silq
@@ -58,3 +58,14 @@ def main(){
 ```
 
 Onde aqui o codigo faz uma medição do circuito que aplicamos a porta de <strong>Hadamard</strong>, ele retorna o resultado que pode ser tanto que o circuito que aplicamos a porta volte como 1 ou 0 dependendo de qual polo estevesse mais proximo.
+
+  ### Introdução básica a OpenQasm
+Para conseguir odar um codigo em OpenQasm é preciso acesar a plataforma da IBMQ, onde é dispponibilizados os recursos para que consigam aprender e "brincar" com a construção de circuitos, aqui esta um exemplo.
+```OpenQasm
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg q[2];
+creg c[2];
+h q[0];
+```
+Aqui pé igualmente o outro, no entanto com a plataforma da IBM conseguimos ter um retorno mais visual.
