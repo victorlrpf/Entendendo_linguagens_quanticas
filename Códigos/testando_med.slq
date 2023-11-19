@@ -1,0 +1,11 @@
+def main(){
+    x:=0:B;
+    z:=0:B;
+    v:=0:B;
+    s:=0:B;
+    x:=H(x);
+    s:=Y(s);
+    z:=Z(z);
+    v:=X(v);
+    return measure(x, z, v, s);
+}

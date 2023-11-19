@@ -1,0 +1,30 @@
+def main() {
+    circ0:=0:B;
+    circ1:=0:B;
+    circ2:=0:B;
+    circ3:=0:B;
+
+    circ0:=I(circ0);
+    circ1:=I(circ1);
+    circ2:=I(circ2);
+    circ3:=X(circ3); // 
+
+    // Caixa Preta
+    circ0:=H(circ0);
+    circ1:=H(circ1);
+    circ2:=H(circ2);
+    circ3:=H(circ3);
+
+    circ0:=I(circ0);
+    circ1:=I(circ1);
+    circ2:=I(circ2);
+    circ3:=X(circ3);
+
+    circ0:=H(circ0);
+    circ1:=H(circ1);
+    circ2:=H(circ2);
+    circ3:=H(circ3); // 
+
+    // Medição
+    return measure(circ0, circ1, circ2, circ3);
+}
